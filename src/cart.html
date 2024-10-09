@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/your/styles.css">
+    <link rel="stylesheet" href="path/to/bootstrap-icons.css"> <!-- Assuming you're using Bootstrap Icons -->
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="index.html">
+                <h2>Cart</h2>
+            </a>
+            <a href="/src/cart.html" aria-label="View cart">
+                <div class="cart">
+                    <i class="bi bi-cart2"></i>
+                    <div id="cartAmount" class="cartamount"></div>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="label" class="text-center"></div>
+        <div class="shopping-cart" id="shopping-cart"></div>
+    </main>
+
+    <script src="src/cart.js"></script>
+</body>
+</html>
